@@ -243,6 +243,12 @@ button {
   padding-bottom: clamp(60px, 6.31vw, 120px);
 }
 
+.ul-achievement-spacing {
+  padding-top: clamp(60px, 6.31vw, 120px);
+
+}
+
+
 .wow {
   animation-duration: 1s !important;
 }
@@ -347,9 +353,11 @@ button {
 }
 .ul-section-title {
   font-weight: 700;
-  font-size: clamp(25px, 2.1vw, 40px);
+  /* font-size: clamp(25px, 2.1vw, 40px); */
+  font-size: clamp(29px, 4.1vw, 50px);
   letter-spacing: -0.03em;
-  color: var(--black);
+  /* color: var(--black); */
+  color: #000929;
   margin-bottom: 0;
   font-weight: 700;
   letter-spacing: 0.01em;
@@ -3065,7 +3073,7 @@ color: black !important;
 @media screen and (max-width: 1599px) {
   .ul-2-about .ul-2-section-title {
     margin-left: 20px;
-    max-width: 75% !important;
+    max-width: 92% !important;
   }
 }
 @media screen and (max-width: 575px) {
@@ -3115,11 +3123,13 @@ color: black !important;
 }
 .ul-2-about-point-title {
   font-weight: 700;
-  font-size: clamp(17px, 1.05vw, 20px);
+  /* font-size: clamp(17px, 1.05vw, 20px); */
+  font-size: clamp(20px, 7.05vw, 25px);
 }
 .ul-2-about-point-descr {
   margin-bottom: 0;
   color: var(--ul-gray2);
+  font-size: 15px;
 }
 .ul-2-about-img {
   position: relative;
@@ -3278,7 +3288,8 @@ color: black !important;
 }
 .ul-inner-about .ul-section-title {
   color: var(--white);
-  margin-bottom: clamp(14px, 1.26vw, 24px);
+  /* margin-bottom: clamp(14px, 1.26vw, 24px); */
+  margin-bottom: clamp(30px, 1.26vw, 38px);
 }
 .ul-inner-about-txt {
   font-size: clamp(13px, 0.84vw, 16px);
@@ -5555,3 +5566,31 @@ color: black !important;
 .ul-app-ad--contact {
   margin-top: clamp(-301px, -15.82vw, -60px);
 }/*# sourceMappingURL=style.css.map */
+
+
+.achievement {
+  font-weight: 700;
+  /* font-size: clamp(25px, 2.1vw, 40px); */
+  font-size: clamp(29px, 2.1vw, 50px);
+  letter-spacing: -0.03em;
+  color: #000929;
+  margin-bottom: 0;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: clamp(5px, 0.42vw, 8px);
+}
+
+.partner {
+  font-weight: 700;
+  /* font-size: clamp(25px, 2.1vw, 40px); */
+  font-size: clamp(29px, 2.1vw, 48px);
+  letter-spacing: -0.03em;
+  color: #000929;
+  margin-bottom: 0;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: clamp(5px, 0.42vw, 8px);
+}
+
+
+
